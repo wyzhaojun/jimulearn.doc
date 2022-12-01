@@ -54,7 +54,7 @@ http://report.jeecg.com
 
 1. 新建数据报表
 
-   ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_01.png)
+   ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_01.png)
 
    
 
@@ -62,25 +62,25 @@ http://report.jeecg.com
 
    - 鼠标移动到数据集管理，点击`＋`选择SQL数据集
 
-   ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_02.png)
+   ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_02.png)
 
    - 点击`>` 可维护数据源，下拉可选择已添加数据源，搜索表
 
-     ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_03.png)
+     ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_03.png)
 
      1）新增数据源
 
-     ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_04.png)
+     ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_04.png)
 
      2）配置数据源
 
      > 不要选择mariadb类型，是个坑
 
-     ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_05.png)
+     ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_05.png)
 
      > 注意:使用公网ip，配置完成后可以点击测试ping一下
 
-     ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_06.png)
+     ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_06.png)
 
      3）选择数据源
 
@@ -88,7 +88,7 @@ http://report.jeecg.com
      >
      > 未选择分页，报表页面显示全部数据
 
-     ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_07.png)
+     ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_07.png)
 
      4）填写编码、名称
 
@@ -97,31 +97,31 @@ http://report.jeecg.com
 
      5）解析SQL
 
-     ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_08.png)
+     ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_08.png)
 
      6）确定
 
      一个数据集就建好了
 
-     ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_09.png)
+     ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_09.png)
 
 3. 设计报表
 
-   ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_10.png)
+   ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_10.png)
 
 4. 预览
 
    先保存，再预览
 
-   ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_11.png)
+   ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_11.png)
 
    效果
 
-   ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_12.png)
+   ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_12.png)
 
 ### 带参报表
 
-![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_13.png)
+![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_13.png)
 
 url带上参数
 
@@ -135,7 +135,7 @@ url带上参数
 
 3. 插入图表
 
-   ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_15.png)
+   ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_15.png)
 
 4. 设置图表数据与样式
 
@@ -143,11 +143,11 @@ url带上参数
 
       单击图标，选择数据
 
-      ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_16.png)
+      ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_16.png)
 
    2. 设置样式
 
-      ![](C:\Users\xtuser545\Desktop\md\jimu_image\create_datareport_17.png)
+      ![](C:/Users/xtuser545/Desktop/md/jimu_image/create_datareport_17.png)
 
 ### 二维码报表
 
@@ -289,11 +289,12 @@ url带上参数
 
   `=DBSUM(数据集编码.数据集字段)`
 
--  DBMAX
+- DBMAX
 
   `=DBMAX(db.xx)`
 
 - DBMIN
+
 - DBAVERAGE
 
 #### 行号函数
@@ -319,7 +320,7 @@ url带上参数
   对象：=date('${jm.create_time}')
   单元格：=date(A1)
 
--  =time()
+- =time()
 
   stringExp HH:mm:ss格式的字符串
 
@@ -344,7 +345,7 @@ url带上参数
 
 - =day()
 
-   从日期型数据中获得该日在本月中是几号，dateExp 表达式，其结果必须为日期或标准日期格式的字符串，如yyyy-MM-ddHH:mm:ss，yyyy- MM-dd，HH:mm:ss
+  从日期型数据中获得该日在本月中是几号，dateExp 表达式，其结果必须为日期或标准日期格式的字符串，如yyyy-MM-ddHH:mm:ss，yyyy- MM-dd，HH:mm:ss
 
   示例：
   例1：=day(datetime2("19800227","yyyyMMdd")) 返回：27
