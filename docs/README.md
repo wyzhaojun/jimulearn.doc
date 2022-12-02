@@ -62,25 +62,25 @@ http://report.jeecg.com
 
    - 鼠标移动到数据集管理，点击`＋`选择SQL数据集
 
-   ![](jimu_image/create_datareport_02.png)
+   ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_02.png)
 
    - 点击`>` 可维护数据源，下拉可选择已添加数据源，搜索表
 
-     ![](jimu_image/create_datareport_03.png)
+     ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_03.png)
 
      1）新增数据源
 
-     ![](jimu_image/create_datareport_04.png)
+     ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_04.png)
 
      2）配置数据源
 
      > 不要选择mariadb类型，是个坑
 
-     ![](jimu_image/create_datareport_05.png)
+     ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_05.png)
 
      > 注意:使用公网ip，配置完成后可以点击测试ping一下
 
-     ![](jimu_image/create_datareport_06.png)
+     ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_06.png)
 
      3）选择数据源
 
@@ -88,7 +88,7 @@ http://report.jeecg.com
      >
      > 未选择分页，报表页面显示全部数据
 
-     ![](jimu_image/create_datareport_07.png)
+     ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_07.png)
 
      4）填写编码、名称
 
@@ -97,35 +97,35 @@ http://report.jeecg.com
 
      5）解析SQL
 
-     ![](jimu_image/create_datareport_08.png)
+     ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_08.png)
 
      6）确定
 
      一个数据集就建好了
 
-     ![](jimu_image/create_datareport_09.png)
+     ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_09.png)
 
 3. 设计报表
 
-   ![](jimu_image/create_datareport_10.png)
+   ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_10.png)
 
 4. 预览
 
    先保存，再预览
 
-   ![](jimu_image/create_datareport_11.png)
+   ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_11.png)
 
    效果
 
-   ![](jimu_image/create_datareport_12.png)
+   ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_12.png)
 
 ### 带参报表
 
-![](jimu_image/create_datareport_13.png)
+![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_13.png)
 
 url带上参数
 
-![](jimu_image/create_datareport_14.png)
+![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_14.png)
 
 ### 图形报表
 
@@ -135,7 +135,7 @@ url带上参数
 
 3. 插入图表
 
-   ![](jimu_image/create_datareport_15.png)
+   ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_15.png)
 
 4. 设置图表数据与样式
 
@@ -143,11 +143,11 @@ url带上参数
 
       单击图标，选择数据
 
-      ![](jimu_image/create_datareport_16.png)
+      ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_16.png)
 
    2. 设置样式
 
-      ![](jimu_image/create_datareport_17.png)
+      ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_17.png)
 
 ### 二维码报表
 
@@ -157,7 +157,7 @@ url带上参数
 
    插入一个二维码，设置二维码内容，可以为普通文本或url
 
-   ![](jimu_image/create_datareport_18.png)
+   ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_18.png)
 
 3. 数据源二维码
 
@@ -169,7 +169,7 @@ url带上参数
 
       第2步最终效果为第5步
 
-      ![](jimu_image/create_datareport_19.png)
+      ![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_19.png)
 
 ### 主子报表
 
@@ -855,10 +855,6 @@ function init(){
 }
 ```
 
-效果
-
-![](jimu_image/create_datareport_21.png)
-
 ### 纸张大小
 
 配置文件中添加
@@ -889,4 +885,4 @@ jeecg :
 
 重新部署
 
-![](jimu_image/create_datareport_20.png)
+![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_20.png)
