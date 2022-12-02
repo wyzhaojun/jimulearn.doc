@@ -125,7 +125,7 @@ http://report.jeecg.com
 
 url带上参数
 
-![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image\create_datareport_14.png)
+![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_14.png)
 
 ### 图形报表
 
@@ -854,6 +854,10 @@ function init(){
   this.queryPanel = '1';
 }
 ```
+
+效果
+
+![](https://github.com/wyzhaojun/jimulearn.doc/tree/main/docs/jimu_image/create_datareport_21.png)
 
 ### 纸张大小
 
